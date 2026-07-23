@@ -1,0 +1,12 @@
+{
+  "name": "real-estate-contact",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build && node scripts/prepare-hosting.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
